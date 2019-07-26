@@ -1159,7 +1159,7 @@ input::placeholder {
 .lightBackground {
   color: black;
   padding: 20px 0;
-  background: #f7f7f7;
+  background: rgba(247, 247, 247, 0.85);
 }
 
 .darkBackground {
@@ -2555,6 +2555,8 @@ div.buyTicketButton:hover {
 /* Program section */
 .program--container {
   font-size: 12px;
+  max-width: 95%;
+  margin: 0 auto;
 }
 
 .program--container section {
@@ -2578,6 +2580,11 @@ div.buyTicketButton:hover {
   color: white;
 }
 
+.program--whoweare,
+.program--timeline-events {
+  padding: 0 1em;
+}
+
 .program--whoweare-personas {
   text-align: center;
   display: flex;
@@ -2585,7 +2592,7 @@ div.buyTicketButton:hover {
   align-items: stretch;
   justify-content: center;
   align-content: center;
-  padding: 0;
+  padding: 0 1em;
 }
 
 .program--whoweare-personas li {
